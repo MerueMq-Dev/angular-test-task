@@ -1,0 +1,20 @@
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.main-header {
+  grid-column: 2 / span 2;
+  grid-row: 1/2;
+}
+
+.stepper {
+  grid-column: 1 / span 4;
+  grid-row: 2/3;
+}

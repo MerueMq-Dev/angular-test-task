@@ -1,0 +1,10 @@
+<form class="row mt-5 justify-content-md-center" [formGroup]="testForm">
+    <div class="col-lg-3">
+        <tui-text-area formControlName="email" class="field-small" [expandable]="true">
+            Введите ваш email
+        </tui-text-area>
+    </div>
+    <div class="col-lg-3">
+        <button tuiButton type="button" (click)="onClick()" type="button" appearance="primary">Отправить код для входа</button>
+    </div>
+</form>
